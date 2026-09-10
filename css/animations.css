@@ -1,0 +1,47 @@
+/* 3D Canvas Background Container */
+#canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Typing Animation Effects */
+.typing-box {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.typing-text {
+  color: var(--orange-bright);
+  border-right: 2px solid var(--orange-core);
+  padding-right: 4px;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--orange-core); }
+}
+
+/* Micro-animations & Interactive Transitions */
+.project-card, .skill-card, .btn, .contact-card {
+  will-change: transform, border-color, box-shadow;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 0.3s ease, 
+              box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 12px 30px rgba(231, 115, 0, 0.20);
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(231, 115, 0, 0.16);
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Sisodia | Data Analyst & Machine Learning Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <!-- Modular Stylesheets -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+  <div id="canvas-container"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">YASH<span>.SISODIA</span></div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Journey</a>
+      <a href="#certifications">Certificates & Languages</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content" data-aos="fade-right">
+      <div class="hero-badge"><i class="fa-solid fa-chart-simple"></i> Data Analyst — Machine Learning — Python — SQL —
+        Power BI</div>
+      <h1 class="hero-title">Yash <span>Sisodia</span></h1>
+      <div class="typing-box">
+        Specializing in <span id="typing" class="typing-text"></span>
+      </div>
+      <p class="hero-desc">
+        Machine Learning & Data Analytics Master’s student at Hochschule Aalen, Germany.
+        Passionate about leveraging Python, SQL, and Scikit-learn to transform complex data
+        into high-impact machine learning models and automated analytics workflows.
+      </p>
+      <div class="btn-group">
+        <a href="#projects" class="btn btn-orange"><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+        <a href="assets/Yash-Sisodia-CV.pdf" target="_blank" class="btn btn-outline"><i
+            class="fa-solid fa-file-pdf"></i> View CV</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-aos="fade-left">
+      <div class="visual-card">
+        <div class="metric-row">
+          <span>Location</span>
+          <strong>Aalen, Germany</strong>
+        </div>
+        <div class="metric-row">
+          <span>ETL Efficiency</span>
+          <strong>+20% Automated</strong>
+        </div>
+        <div class="metric-row">
+          <span>Query Runtime</span>
+          <strong>-30% Optimization</strong>
+        </div>
+        <div class="metric-row">
+          <span>Model Accuracy</span>
+          <strong>+15% Scikit-learn</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects (Generated via js/data.js & js/components.js) -->
+  <section id="projects">
+    <h2 class="section-title" data-aos="fade-up">Featured <span>Projects</span></h2>
+    <p class="section-subtitle" data-aos="fade-up">Production AI systems, computer vision pipelines, and predictive
+      analytics.</p>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
+  <!-- Skills (Generated via js/data.js & js/components.js) -->
+  <section id="skills">
+    <h2 class="section-title" data-aos="fade-up">Technical <span>Arsenal</span></h2>
+    <p class="section-subtitle" data-aos="fade-up">Core frameworks, languages, and tools utilized across data science
+      workflows.</p>
+    <div class="skills-grid" id="skills-grid"></div>
+  </section>
+
+  <!-- Journey -->
+  <section id="experience">
+    <h2 class="section-title" data-aos="fade-up">Academic & <span>Work Journey</span></h2>
+    <p class="section-subtitle" data-aos="fade-up">Milestones across computer science, machine learning, and data
+      engineering.</p>
+
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2025 – Present</div>
+          <h3>Master’s in Machine Learning and Data Analytics</h3>
+          <h4>Hochschule Aalen, Germany</h4>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">March 2024 – November 2024</div>
+          <h3>Software Engineer (Intern)</h3>
+          <h4>ChicMic LLP, Chandigarh, India</h4>
+          <ul>
+            <li>Built Python data pipelines using Pandas, NumPy, and SQL for automated data cleaning and transformation,
+              improving processing efficiency by 20%.</li>
+            <li>Optimized complex SQL queries for data extraction and analysis, reducing query runtime by 30%.</li>
+            <li>Developed machine learning models using Scikit-learn for predictive analysis, improving accuracy by 15%.
+            </li>
+            <li>Implemented automated ETL pipelines to improve dataset quality for analytics and modeling.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2020 – 2024</div>
+          <h3>Bachelor’s in Information Technology</h3>
+          <h4>Panjab University, India</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Languages -->
+  <section id="certifications">
+    <h2 class="section-title" data-aos="fade-up">Certifications & <span>Languages</span></h2>
+    <p class="section-subtitle" data-aos="fade-up">Verified credentials and multilingual communication capabilities.</p>
+
+    <div class="cert-grid" id="cert-grid"></div>
+    <div class="lang-grid" id="lang-grid"></div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="section-title" data-aos="fade-up">Let's <span>Connect</span></h2>
+    <p class="section-subtitle" data-aos="fade-up">Feel free to reach out directly or send an email through the form.
+    </p>
+
+    <div class="contact-container">
+      <div class="contact-info" data-aos="fade-right">
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:yashsisodia1905@gmail.com">yashsisodia1905@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:+4915510860041">+49 15510860041</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Rombacherstraße 91, Aalen, Germany</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <div>
+            <h4>LinkedIn</h4>
+            <a href="https://linkedin.com/in/yas-sisodia" target="_blank">linkedin.com/in/yas-sisodia</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <div>
+            <h4>GitHub</h4>
+            <a href="https://github.com/yas-sisodia" target="_blank">github.com/yas-sisodia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form" data-aos="fade-left">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" class="form-control" placeholder="jane@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="4" class="form-control" placeholder="Hello Yash, I'd like to discuss..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-orange" style="width: 100%; justify-content: center;">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+        <div id="form-feedback" style="display:none; margin-top: 1rem; text-align: center; font-size: 0.9rem;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">
+      © <span id="year"></span> Yash Sisodia. All rights reserved.
+    </p>
+    <div class="social-links">
+      <a href="https://github.com/yas-sisodia" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://linkedin.com/in/yas-sisodia" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:yashsisodia1905@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
