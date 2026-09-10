@@ -2,7 +2,7 @@ const PORTFOLIO_CONFIG = {
   profile: {
     name: "Yash Sisodia",
     headline: "Data Analyst — Machine Learning — Python — SQL — Power BI",
-    address: "Rombacherstraße 91, Aalen, Germany",
+    address: "Aalen, Germany",
     location: "Aalen, Germany",
     email: "yashsisodia1905@gmail.com",
     mobile: "+49 15510860041",
