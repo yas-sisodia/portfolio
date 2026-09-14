@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeof renderSkills === 'function') renderSkills();
   if (typeof renderCertificatesAndLanguages === 'function') renderCertificatesAndLanguages();
   if (typeof initTypewriter === 'function') initTypewriter();
-  if (typeof initContactForm === 'function') initContactForm();
 
   // 3. Active Nav Tab Switching (Click + Scroll)
   const navLinks = document.querySelectorAll('header nav a');

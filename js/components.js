@@ -95,21 +95,3 @@ function initTypewriter() {
   typeLoop();
 }
 
-function initContactForm() {
-  const form = document.getElementById('contact-form');
-  const feedback = document.getElementById('form-feedback');
-  if (!form || !feedback) return;
-
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    feedback.style.display = 'block';
-    feedback.style.color = 'var(--orange-bright)';
-    feedback.textContent = 'Transmitting message...';
-
-    setTimeout(() => {
-      feedback.style.color = '#ffffff';
-      feedback.textContent = "Message sent! I'll get back to you shortly.";
-      form.reset();
-    }, 1000);
-  });
-}
